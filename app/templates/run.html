@@ -1,0 +1,23 @@
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+</head>
+<body>
+    <form action="/api/sample/v1/run" method="POST">
+        <h1>Select Topology</h1>
+        <input type="radio" id="tp1" name="topology" value="tp1">
+        <label for="tp1">Topology 1</label><br>
+        <input type="radio" id="tp2" name="topology" value="tp2">
+        <label for="tp2">Topology 2</label><br>
+
+        <h1>Select Test Suite</h1>  
+        <input type="radio" id="ts1" name="suite" value="ts1">
+        <label for="ts1">Test Suite 1</label>
+        <input type="radio" id="ts2" name="suite" value="ts2">
+        <label for="ts2">Test Suite 2</label>
+
+        <input type="submit" value="Run">
+    </form>
+</body>
+</html>
+
